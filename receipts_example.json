@@ -1,0 +1,1056 @@
+[
+    {
+        "receiptDetails": {
+            "download": {
+                "filename": "eReceipt_1128_Wolli Creek_21Jun2021__ylsog.pdf",
+                "url": "https://prod.mobile-api.woolworths.com.au/zeus/metis/v1/rewards/pdf/receipt/VTJGc2RHVmtYMStZTTFYcTZkOGZWTm82UDh5WHZYZlYzdXp0djJTejhaTGROTDhUVGxXbGxkYmxQRUd0QjVnaDIrYUpuOEVvbmpOU1ZYLzZveWN6UC9sdTN1R3Y4Wks0NjJUU0l4RFk5V3M9"
+            },
+            "details": [
+                {
+                    "__typename": "ReceiptDetailsHeader",
+                    "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/woolworths_wapple.png",
+                    "title": "1128 Wolli Creek",
+                    "content": "78-96 Arncliffe Street",
+                    "storeNo": "1128",
+                    "division": "SUPERMARKETS"
+                },
+                {
+                    "__typename": "ReceiptDetailsTotal",
+                    "total": "$40.00"
+                },
+                {
+                    "__typename": "ReceiptDetailsItems",
+                    "header": {
+                        "prefixChar": null,
+                        "description": "Description",
+                        "amount": "$"
+                    },
+                    "items": [
+                        {
+                            "prefixChar": null,
+                            "description": "Pear Packham Green",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "1.047 kg NET @ $2.00/kg",
+                            "amount": "2.09"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Apple Pink Lady",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "1.027 kg NET @ $3.90/kg",
+                            "amount": "4.01"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "#Coca Cola Drink Vanilla 1.25l",
+                            "amount": "1.57"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Chicken Breast Fillets Small RSPCA",
+                            "amount": "7.57"
+                        },
+                        {
+                            "prefixChar": "#",
+                            "description": "WW Caramel Iced Donuts 4pk",
+                            "amount": "5.00"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Woolworths Turkish Loaf 400g",
+                            "amount": "2.50"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Pear The Odd Bunch 1kg PP",
+                            "amount": "1.90"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Drought Relief Whole Milk 2L",
+                            "amount": "2.39"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Hazelnut Spread 750g",
+                            "amount": "4.30"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "Gippsland Dairy Boysenberry 720G",
+                            "amount": "5.50"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Cream Cheese Spread Regular 245g",
+                            "amount": "2.90"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Feed Appeal Donation",
+                            "amount": "0.27"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSummary",
+                    "discounts": [
+
+                    ],
+                    "summaryItems": [
+                        {
+                            "prefixChar": null,
+                            "description": "^Promotional Price",
+                            "amount": ""
+                        }
+                    ],
+                    "gst": {
+                        "prefixChar": null,
+                        "description": "#Total includes GST",
+                        "amount": "$0.60"
+                    },
+                    "receiptTotal": {
+                        "prefixChar": null,
+                        "description": "TOTAL (12 items)",
+                        "amount": "$40.00"
+                    }
+                },
+                {
+                    "__typename": "ReceiptDetailsPayments",
+                    "payments": [
+                        {
+                            "details": [
+                                {
+                                    "text": "------------------------"
+                                },
+                                {
+                                    "text": "WOOLWORTHS      1128"
+                                },
+                                {
+                                    "text": "WOLLI CREEK      NSW"
+                                },
+                                {
+                                    "text": "MERCH ID:611000602001128"
+                                },
+                                {
+                                    "text": "TERM ID:        W1128090"
+                                },
+                                {
+                                    "text": "CARD:.............XXXX T"
+                                },
+                                {
+                                    "text": "Visa DEBIT"
+                                },
+                                {
+                                    "text": "AID       A0000000031010"
+                                },
+                                {
+                                    "text": "ARQC    6E7A21543F367908"
+                                },
+                                {
+                                    "text": "PURCHASE          $40.00"
+                                },
+                                {
+                                    "text": "------------"
+                                },
+                                {
+                                    "text": "TOTAL             $40.00"
+                                },
+                                {
+                                    "text": "APPROVED              00"
+                                },
+                                {
+                                    "text": "21/06/21 16:42    005468"
+                                },
+                                {
+                                    "text": "------------------------"
+                                }
+                            ],
+                            "description": "X-XXXX",
+                            "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/payment_icon_visa.png",
+                            "altText": "Visa",
+                            "amount": "$40.00"
+                        },
+                        {
+                            "details": [
+
+                            ],
+                            "description": "Change",
+                            "iconUrl": null,
+                            "altText": null,
+                            "amount": "$0.00"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSavings",
+                    "savings": "You saved $3.08 🎉"
+                },
+                {
+                    "__typename": "ReceiptDetailsInfo",
+                    "header": {
+                        "prefixChar": null,
+                        "description": "Donations",
+                        "amount": ""
+                    },
+                    "info": [
+                        {
+                            "prefixChar": null,
+                            "description": "Donations of $2 or more are tax deductible",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": " ",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Received on behalf of:",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Feed Appeal Donation",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "TAX Number:",
+                            "amount": "67-586-578-997"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Amount:",
+                            "amount": "$0.27"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsFooter",
+                    "barcode": {
+                        "value": "6291128055555210621",
+                        "type": "Code128"
+                    },
+                    "transactionDetails": "POS  090  TRANS  5468   16:42   21/06/2021",
+                    "abnAndStore": "ABN 88 000 014 675, STORE 1128\n  WOOLWORTHS GROUP LIMITED"
+                },
+                {
+                    "__typename": "ReceiptDetailsCoupon",
+                    "headerImageUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/bws_coupon_logo.png",
+                    "sections": [
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE WINE OFFER",
+                            "details": [
+                                "BUY 1 GET 1 FREE - $20, Save $20",
+                                "Te Rua Bay Sauvignon Blanc, Bygone Era Shiraz,",
+                                "The Barque Merlot, OR Rangers Lookout Pinot Grigio 750ml"
+                            ]
+                        },
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE BEER OFFER",
+                            "details": [
+                                "PRESENT YOUR COUPON AT BWS TO REDEEM THE BELOW OFFERS:",
+                                "James Squire Broken Shackles Lager Bottles 345ml",
+                                "24PK ONLY $49 6PK $14",
+                                "Tooheys Extra Dry Bottles 345ml",
+                                "24PK ONLY $40 OR 6PK $14"
+                            ]
+                        }
+                    ],
+                    "footer": "*All BWS offers T&C's at BWS.com.au/RR\nNo further discounts & limits apply. Over 18's only.\nBeer and Wine offers Expire 06-JULY-2021",
+                    "barcode": {
+                        "value": "981611111111180004262008111111326023",
+                        "type": "Code128"
+                    }
+                }
+            ],
+            "key": "U2FsdGVkX1+YM1Xq6d8fVNo6P8yXvXfV3uztv2Sz8ZLdNL8TTlWlldblPEGtB5gh2+aJn8EonjNSVX/6oyczP/lu3uGv8ZK462TSIxDY9Ws="
+        }
+    },
+    {
+        "receiptDetails": {
+            "download": {
+                "filename": "eReceipt_1149_Marrickville_20Jun2021__yyxoe.pdf",
+                "url": "https://prod.mobile-api.woolworths.com.au/zeus/metis/v1/rewards/pdf/receipt/VTJGc2RHVmtYMSticnA1UWo0U0dlQUhDRFhzKzJoQUxHd3BrOWJWZTFmTjNIMjNQcDFPRUJUQW1RNy81elB6NUsrVVNwYjg3YThGQ2tRc2hxNUl6eHZsdU5hUVM2NXhVMGh6U3FyOUU0VlU9"
+            },
+            "details": [
+                {
+                    "__typename": "ReceiptDetailsHeader",
+                    "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/woolworths_wapple.png",
+                    "title": "1149 Marrickville",
+                    "content": "463 Illawarra Road",
+                    "storeNo": "1149",
+                    "division": "SUPERMARKETS"
+                },
+                {
+                    "__typename": "ReceiptDetailsTotal",
+                    "total": "$4.80"
+                },
+                {
+                    "__typename": "ReceiptDetailsItems",
+                    "header": {
+                        "prefixChar": null,
+                        "description": "Description",
+                        "amount": "$"
+                    },
+                    "items": [
+                        {
+                            "prefixChar": null,
+                            "description": "WW Spring Water 12X600ml",
+                            "amount": "4.80"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSummary",
+                    "discounts": [
+
+                    ],
+                    "summaryItems": [
+
+                    ],
+                    "gst": null,
+                    "receiptTotal": {
+                        "prefixChar": null,
+                        "description": "TOTAL (1 item)",
+                        "amount": "$4.80"
+                    }
+                },
+                {
+                    "__typename": "ReceiptDetailsPayments",
+                    "payments": [
+                        {
+                            "details": [
+                                {
+                                    "text": "------------------------"
+                                },
+                                {
+                                    "text": "WOOLWORTHS      1149"
+                                },
+                                {
+                                    "text": "MARRICKVILLE     NSW"
+                                },
+                                {
+                                    "text": "MERCH ID:611000602001149"
+                                },
+                                {
+                                    "text": "TERM ID:        W1149086"
+                                },
+                                {
+                                    "text": "CARD:.............XXXX T"
+                                },
+                                {
+                                    "text": "Visa DEBIT"
+                                },
+                                {
+                                    "text": "AID       A0000000031010"
+                                },
+                                {
+                                    "text": "ARQC    3F2DD1EDD9D1E15F"
+                                },
+                                {
+                                    "text": "PURCHASE           $4.80"
+                                },
+                                {
+                                    "text": "------------"
+                                },
+                                {
+                                    "text": "TOTAL              $4.80"
+                                },
+                                {
+                                    "text": "APPROVED              00"
+                                },
+                                {
+                                    "text": "20/06/21 14:06    006694"
+                                },
+                                {
+                                    "text": "------------------------"
+                                }
+                            ],
+                            "description": "X-XXXX",
+                            "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/payment_icon_visa.png",
+                            "altText": "Visa",
+                            "amount": "$4.80"
+                        },
+                        {
+                            "details": [
+
+                            ],
+                            "description": "Change",
+                            "iconUrl": null,
+                            "altText": null,
+                            "amount": "$0.00"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsFooter",
+                    "barcode": {
+                        "value": "62911111116611100621",
+                        "type": "Code128"
+                    },
+                    "transactionDetails": "POS  086  TRANS  6694   14:06   20/06/2021",
+                    "abnAndStore": "ABN 88 000 014 675, STORE 1149\n  WOOLWORTHS GROUP LIMITED"
+                }
+            ],
+            "key": "U2FsdGVkX1+brp5Qj4SGeAHCDXs+2hALGwpk9bVe1fN3H23Pp1OEBTAmQ7/5zPz5K+USpb87a8FCkQshq5IzxvluNaQS65xU0hzSqr9E4VU="
+        }
+    },
+    {
+        "receiptDetails": {
+            "download": {
+                "filename": "eReceipt_1149_Marrickville_16Jun2021__lfkuy.pdf",
+                "url": "https://prod.mobile-api.woolworths.com.au/zeus/metis/v1/rewards/pdf/receipt/VTJGc2RHVmtYMTlPcHIrOTUzWTIwc1ZIL3NFekxRcDlTSUlWZ1lmTVNPdFdYVnN0REtlL0JWTUpTbVFlSHJ2TTkyWGFRNksxalBjdE9lVmQxaUdXTGVpN2VWbHIrN1VnWkdpN1FOczVwUVU9"
+            },
+            "details": [
+                {
+                    "__typename": "ReceiptDetailsHeader",
+                    "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/woolworths_wapple.png",
+                    "title": "1149 Marrickville",
+                    "content": "463 Illawarra Road",
+                    "storeNo": "1149",
+                    "division": "SUPERMARKETS"
+                },
+                {
+                    "__typename": "ReceiptDetailsTotal",
+                    "total": "$10.41"
+                },
+                {
+                    "__typename": "ReceiptDetailsItems",
+                    "header": {
+                        "prefixChar": null,
+                        "description": "Description",
+                        "amount": "$"
+                    },
+                    "items": [
+                        {
+                            "prefixChar": null,
+                            "description": "Mushroom Cups Loose",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "0.228 kg NET @ $11.00/kg",
+                            "amount": "2.51"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Essentials Coconut Cream 400ml",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Qty 3 @ $1.00 each",
+                            "amount": "3.00"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Lime The Odd Bunch 500g",
+                            "amount": "4.90"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSummary",
+                    "discounts": [
+
+                    ],
+                    "summaryItems": [
+
+                    ],
+                    "gst": null,
+                    "receiptTotal": {
+                        "prefixChar": null,
+                        "description": "TOTAL (5 items)",
+                        "amount": "$10.41"
+                    }
+                },
+                {
+                    "__typename": "ReceiptDetailsPayments",
+                    "payments": [
+                        {
+                            "details": [
+
+                            ],
+                            "description": "REWARDS SAVINGS",
+                            "iconUrl": null,
+                            "altText": null,
+                            "amount": "$10.00"
+                        },
+                        {
+                            "details": [
+                                {
+                                    "text": "------------------------"
+                                },
+                                {
+                                    "text": "WOOLWORTHS      1149"
+                                },
+                                {
+                                    "text": "MARRICKVILLE     NSW"
+                                },
+                                {
+                                    "text": "MERCH ID:611000602001149"
+                                },
+                                {
+                                    "text": "TERM ID:        W1149063"
+                                },
+                                {
+                                    "text": "CARD:.............XXXX T"
+                                },
+                                {
+                                    "text": "Visa DEBIT"
+                                },
+                                {
+                                    "text": "AID       A0000000031010"
+                                },
+                                {
+                                    "text": "ARQC    25B03D84FE8936C0"
+                                },
+                                {
+                                    "text": "PURCHASE           $0.41"
+                                },
+                                {
+                                    "text": "------------"
+                                },
+                                {
+                                    "text": "TOTAL              $0.41"
+                                },
+                                {
+                                    "text": "APPROVED              00"
+                                },
+                                {
+                                    "text": "16/06/21 18:57    006143"
+                                },
+                                {
+                                    "text": "------------------------"
+                                }
+                            ],
+                            "description": "X-XXXX",
+                            "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/payment_icon_visa.png",
+                            "altText": "Visa",
+                            "amount": "$0.41"
+                        },
+                        {
+                            "details": [
+
+                            ],
+                            "description": "Change",
+                            "iconUrl": null,
+                            "altText": null,
+                            "amount": "$0.00"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSavings",
+                    "savings": "You saved $10.00 🎉"
+                },
+                {
+                    "__typename": "ReceiptDetailsCoupon",
+                    "headerImageUrl": null,
+                    "sections": [
+                        {
+                            "sectionTitle": "YOU JUST SAVED $10 THANKS TO EVERYDAY",
+                            "details": [
+                                "REWARDS!"
+                            ]
+                        }
+                    ],
+                    "footer": null,
+                    "barcode": null
+                },
+                {
+                    "__typename": "ReceiptDetailsFooter",
+                    "barcode": {
+                        "value": "62XX1490CCC143160621",
+                        "type": "Code128"
+                    },
+                    "transactionDetails": "POS  063  TRANS  6143   18:57   16/06/2021",
+                    "abnAndStore": "ABN 88 000 014 675, STORE 1149\n  WOOLWORTHS GROUP LIMITED"
+                },
+                {
+                    "__typename": "ReceiptDetailsCoupon",
+                    "headerImageUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/bws_coupon_logo.png",
+                    "sections": [
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE WINE OFFER",
+                            "details": [
+                                "BUY 1 GET 1 FREE - $20,Save $20",
+                                "Te Rua Bay Sauvignon Blanc, Bygone Era Shiraz,",
+                                "The Braque Merlot,OR Rangers Lookout Pinot Grigio 750 ml"
+                            ]
+                        },
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE BEER OFFER",
+                            "details": [
+                                "PRESENT YOUR COUPON AT BWS TO REDEEM THE BELOW OFFERS:",
+                                "Heinken Lager Bottles 330ml",
+                                "24PK ONLY $45 or 6PK $15",
+                                "Mercury Hard Cider 375ml Cans",
+                                "24PK ONLY $50 OR 6PK $13"
+                            ]
+                        }
+                    ],
+                    "footer": "*All BWS offers T&C's at BWS.com.au/RR\nNo further discounts & limits apply. Over 18's only.\nBeer and Wine Offers Expire 06-JUL-2021",
+                    "barcode": {
+                        "value": "98511166666614444448415082024444306026",
+                        "type": "Code128"
+                    }
+                }
+            ],
+            "key": "U2FsdGVkX19Opr+953Y20sVH/sEzLQp9SIIVgYfMSOtWXVstDKe/BVMJSmQeHrvM92XaQ6K1jPctOeVd1iGWLei7eVlr+7UgZGi7QNs5pQU="
+        }
+    },
+    {
+        "receiptDetails": {
+            "download": {
+                "filename": "eReceipt_1149_Marrickville_01Jun2021__qmdjc.pdf",
+                "url": "https://prod.mobile-api.woolworths.com.au/zeus/metis/v1/rewards/pdf/receipt/VTJGc2RHVmtYMStnZ3RLOWVHM0M1d0NvVXRCdGo2eVV2dGNaUXREZ3Q1cmVDUHBpMWZNUDVVaTF5M2x2RFkyL09BMFMvZkMwcEZjbjRuMDJ4ODFtUS9rZ2tENEUwOGdkWlkycnYzVU9kelE9"
+            },
+            "details": [
+                {
+                    "__typename": "ReceiptDetailsHeader",
+                    "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/woolworths_wapple.png",
+                    "title": "1149 Marrickville",
+                    "content": "463 Illawarra Road",
+                    "storeNo": "1149",
+                    "division": "SUPERMARKETS"
+                },
+                {
+                    "__typename": "ReceiptDetailsTotal",
+                    "total": "$9.30"
+                },
+                {
+                    "__typename": "ReceiptDetailsItems",
+                    "header": {
+                        "prefixChar": null,
+                        "description": "Description",
+                        "amount": "$"
+                    },
+                    "items": [
+                        {
+                            "prefixChar": "^",
+                            "description": "#Sunkist Drink Orange 1.25l",
+                            "amount": "1.30"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "WW Cheese And Bacon Rolls 4pk",
+                            "amount": "3.00"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "#WW Caramel Bar Slice260g",
+                            "amount": "5.00"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSummary",
+                    "discounts": [
+
+                    ],
+                    "summaryItems": [
+                        {
+                            "prefixChar": null,
+                            "description": "^Promotional Price",
+                            "amount": ""
+                        }
+                    ],
+                    "gst": {
+                        "prefixChar": null,
+                        "description": "#Total includes GST",
+                        "amount": "$0.57"
+                    },
+                    "receiptTotal": {
+                        "prefixChar": null,
+                        "description": "TOTAL (3 items)",
+                        "amount": "$9.30"
+                    }
+                },
+                {
+                    "__typename": "ReceiptDetailsPayments",
+                    "payments": [
+                        {
+                            "details": [
+                                {
+                                    "text": "------------------------"
+                                },
+                                {
+                                    "text": "WOOLWORTHS      1149"
+                                },
+                                {
+                                    "text": "MARRICKVILLE     NSW"
+                                },
+                                {
+                                    "text": "MERCH ID:611000602001149"
+                                },
+                                {
+                                    "text": "TERM ID:        W1149061"
+                                },
+                                {
+                                    "text": "CARD:.............XXXX T"
+                                },
+                                {
+                                    "text": "Visa DEBIT"
+                                },
+                                {
+                                    "text": "AID       A0000000031010"
+                                },
+                                {
+                                    "text": "ARQC    CB5788F6E14A9DEB"
+                                },
+                                {
+                                    "text": "PURCHASE           $9.30"
+                                },
+                                {
+                                    "text": "------------"
+                                },
+                                {
+                                    "text": "TOTAL              $9.30"
+                                },
+                                {
+                                    "text": "APPROVED              00"
+                                },
+                                {
+                                    "text": "01/06/21 16:43    001109"
+                                },
+                                {
+                                    "text": "------------------------"
+                                }
+                            ],
+                            "description": "X-XXXX",
+                            "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/payment_icon_visa.png",
+                            "altText": "Visa",
+                            "amount": "$9.30"
+                        },
+                        {
+                            "details": [
+
+                            ],
+                            "description": "Change",
+                            "iconUrl": null,
+                            "altText": null,
+                            "amount": "$0.00"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSavings",
+                    "savings": "You saved $3.05 🎉"
+                },
+                {
+                    "__typename": "ReceiptDetailsFooter",
+                    "barcode": {
+                        "value": "62661496666609016621",
+                        "type": "Code128"
+                    },
+                    "transactionDetails": "POS  061  TRANS  1109   16:43   01/06/2021",
+                    "abnAndStore": "ABN 88 000 014 675, STORE 1149\n  WOOLWORTHS GROUP LIMITED"
+                },
+                {
+                    "__typename": "ReceiptDetailsCoupon",
+                    "headerImageUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/bws_coupon_logo.png",
+                    "sections": [
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE WINE OFFER",
+                            "details": [
+                                "BUY 1 GET 1 FREE - $20, Save $20",
+                                "Cape Campbell Sauvignon Blanc, Bygone Era Shiraz,",
+                                "The Barque Merlot, Or Rangers Lookout Pinot Grigio 750ml"
+                            ]
+                        },
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE BEER OFFER",
+                            "details": [
+                                "PRESENT YOUR COUPON AT BWS TO REDEEM THE BELOW OFFERS:",
+                                "Byron Bay Premium Lager Bottles 355ml",
+                                "24PK ONLY $46 6PK $14",
+                                "Asahi Super Dry Bottles 330ml",
+                                "24PK ONLY $50 6PK $16"
+                            ]
+                        }
+                    ],
+                    "footer": "*All BWS offers T&C's at BWS.com.au/RR\nNo further discounts & limits apply. Over 18's only.\nBeer and Wine Offers Expire 08-JUN-2021",
+                    "barcode": {
+                        "value": "984811490555559004855310720555555410000",
+                        "type": "Code128"
+                    }
+                }
+            ],
+            "key": "U2FsdGVkX1+ggtK9eG3C5wCoUtBtj6yUvtcZQtDgt5reCPpi1fMP5Ui1y3lvDY2/OA0S/fC0pFcn4n02x81mQ/kgkD4E08gdZY2rv3UOdzQ="
+        }
+    },
+    {
+        "receiptDetails": {
+            "download": {
+                "filename": "eReceipt_1649_Marrickville Metro_31May2021__ouzgn.pdf",
+                "url": "https://prod.mobile-api.woolworths.com.au/zeus/metis/v1/rewards/pdf/receipt/VTJGc2RHVmtYMStiK1dBOTR5clBkTHUvemFlYWNaekFxZklUWXJKeHNtWjhiVkZLUE5MMEU0SnUxUEhyM0Y4WmM1MUozZzh4c05mcjMrWmJJMWMxMWlKVU9lR0pMV3I5alNZTWt2enFzTHM9"
+            },
+            "details": [
+                {
+                    "__typename": "ReceiptDetailsHeader",
+                    "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/woolworths_wapple.png",
+                    "title": "1649 Marrickville Metro",
+                    "content": "Marrickville S/c, 34 Victoria Road",
+                    "storeNo": "1649",
+                    "division": "SUPERMARKETS"
+                },
+                {
+                    "__typename": "ReceiptDetailsTotal",
+                    "total": "$78.24"
+                },
+                {
+                    "__typename": "ReceiptDetailsItems",
+                    "header": {
+                        "prefixChar": null,
+                        "description": "Description",
+                        "amount": "$"
+                    },
+                    "items": [
+                        {
+                            "prefixChar": null,
+                            "description": "Banana Cavendish",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "1.552 kg NET @ $4.90/kg",
+                            "amount": "7.60"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Apple Pink Lady",
+                            "amount": ""
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "1.092 kg NET @ $2.50/kg",
+                            "amount": "2.73"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Cage Free Eggs 18pk 900g",
+                            "amount": "6.00"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Chicken Breast Fillets Bulk RSPCA",
+                            "amount": "13.09"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Ricotta Tub 375g",
+                            "amount": "3.00"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "#Colgate Toothpaste Adv Whitng 110g",
+                            "amount": "2.40"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "#Sanitarium Up & Go Vanilla Ice 3x250ml",
+                            "amount": "2.47"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Australian SaltedButter 250g",
+                            "amount": "3.25"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "D/F Thick & Creamy Mang PassionF 600g",
+                            "amount": "4.00"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "WW Cheese Block Tasty 500g",
+                            "amount": "5.30"
+                        },
+                        {
+                            "prefixChar": "^",
+                            "description": "Kelloggs Crnchy Nut Corn Flakes 670g",
+                            "amount": "6.50"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Cottees Jam Raspberry 500g",
+                            "amount": "2.80"
+                        },
+                        {
+                            "prefixChar": "#",
+                            "description": "WW Scotch Finger 250g",
+                            "amount": "0.90"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Potato Spud Lite 1.5 kg PP",
+                            "amount": "4.00"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Lettuce Iceberg",
+                            "amount": "3.00"
+                        },
+                        {
+                            "prefixChar": null,
+                            "description": "Kiwifruit Red P/P Imported 500g",
+                            "amount": "5.90"
+                        },
+                        {
+                            "prefixChar": "#",
+                            "description": "WW Cinnamon Scroll 2pk",
+                            "amount": "3.00"
+                        },
+                        {
+                            "prefixChar": "#",
+                            "description": "Kleenex FacialTiss XcareAloevera 60pk",
+                            "amount": "2.30"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSummary",
+                    "discounts": [
+
+                    ],
+                    "summaryItems": [
+                        {
+                            "prefixChar": null,
+                            "description": "^Promotional Price",
+                            "amount": ""
+                        }
+                    ],
+                    "gst": {
+                        "prefixChar": null,
+                        "description": "#Total includes GST",
+                        "amount": "$1.01"
+                    },
+                    "receiptTotal": {
+                        "prefixChar": null,
+                        "description": "TOTAL (18 items)",
+                        "amount": "$78.24"
+                    }
+                },
+                {
+                    "__typename": "ReceiptDetailsPayments",
+                    "payments": [
+                        {
+                            "details": [
+                                {
+                                    "text": "------------------------"
+                                },
+                                {
+                                    "text": "WOOLWORTHS      1649"
+                                },
+                                {
+                                    "text": "MARRICKVILLE     NSW"
+                                },
+                                {
+                                    "text": "MERCH ID:611000602001649"
+                                },
+                                {
+                                    "text": "TERM ID:        W1649062"
+                                },
+                                {
+                                    "text": "CARD:.............5391 T"
+                                },
+                                {
+                                    "text": "Visa DEBIT"
+                                },
+                                {
+                                    "text": "AID       A0000000031010"
+                                },
+                                {
+                                    "text": "ARQC    10CB7C98F06086C2"
+                                },
+                                {
+                                    "text": "PURCHASE          $78.24"
+                                },
+                                {
+                                    "text": "------------"
+                                },
+                                {
+                                    "text": "TOTAL             $78.24"
+                                },
+                                {
+                                    "text": "APPROVED              00"
+                                },
+                                {
+                                    "text": "31/05/21 15:17    000368"
+                                },
+                                {
+                                    "text": "------------------------"
+                                }
+                            ],
+                            "description": "X-5391",
+                            "iconUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/payment_icon_visa.png",
+                            "altText": "Visa",
+                            "amount": "$78.24"
+                        },
+                        {
+                            "details": [
+
+                            ],
+                            "description": "Change",
+                            "iconUrl": null,
+                            "altText": null,
+                            "amount": "$0.00"
+                        }
+                    ]
+                },
+                {
+                    "__typename": "ReceiptDetailsSavings",
+                    "savings": "You saved $7.38 🎉"
+                },
+                {
+                    "__typename": "ReceiptDetailsFooter",
+                    "barcode": {
+                        "value": "6291555555568310521",
+                        "type": "Code128"
+                    },
+                    "transactionDetails": "POS  062  TRANS  368   15:17   31/05/2021",
+                    "abnAndStore": "ABN 88 000 014 675, STORE 1649\n  WOOLWORTHS GROUP LIMITED"
+                },
+                {
+                    "__typename": "ReceiptDetailsCoupon",
+                    "headerImageUrl": "https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/bws_coupon_logo.png",
+                    "sections": [
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE WINE OFFER",
+                            "details": [
+                                "BUY 1 GET 1 FREE - $20, Save $20",
+                                "Cape Campbell Sauvignon Blanc, Bygone Era Shiraz,",
+                                "The Barque Merlot, OR Rangers Lookout Pinot Grigio 750ml"
+                            ]
+                        },
+                        {
+                            "sectionTitle": "BWS EXCLUSIVE BEER OFFER",
+                            "details": [
+                                "PRESENT YOUR COUPON AT BWS TO REDEEM THE BELOW OFFERS:",
+                                "James Squire 150 Lashes Pale Ale Bottle 345ml",
+                                "24PK ONLY $49 6PK $16",
+                                "Tooheys New Bottles OR Cans 375ml",
+                                "24PK ONLY $45 or 6PK $15"
+                            ]
+                        }
+                    ],
+                    "footer": "*All BWS offers T&C's at BWS.com.au/RR\nNo further discounts & limits apply. Over 18's only.\nBeer and Wine Offers Expire 08-JUN-2021",
+                    "barcode": {
+                        "value": "98321645555555555555072021515945926",
+                        "type": "Code128"
+                    }
+                }
+            ],
+            "key": "U2FsdGVkX1+b+WA94yrPdLu/zaeacZzAqfITYrJxsmZ8bVFKPNL0E4Ju1PHr3F8Zc51J3g8xsNfr3+ZbI1c11iJUOeGJLWr9jSYMkvzqsLs="
+        }
+    }
+]
