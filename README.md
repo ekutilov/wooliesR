@@ -7,11 +7,11 @@ Here's how I have done it and my code. You can follow (at your own risk).
 1. Open Everyday Rewards website, log in and navigate to the Activity page [https://www.woolworthsrewards.com.au/index.html#/my-activity] (including passing 2FA if necessary)
 2. Staying on this page, open Developers Javascript Console (Opt-Comm-J/Shift-Ctrl-J/*View>Developer>JS Console* in Chrome, Opt-Comm-C/Sh-Cntl-C/*Develop>Shop JS Console* in Safary)
 3. Copy JS code from `downloader.js` into console's command line (after `>`) and enter to execute. It takes some while, but there are log messages to keep track on
-4. The page will change to a new one with only two text fields on. These need to be copied and pasted into two separate plain text files; those are your data in a plain JSON format
+4. The page will change to a new one with a text field on. The text from it needs to be copied and pasted into a plain text file; those are your data in a plain JSON format.
       * JSON files can be viewed, transformed and analysed in many modern tools (I'm sure Excel can read it now, I guess one can use Alteryx, Tableau, Python, Javascript and so on). They also might be copied directly into one of the online JSON parsing tools to see them in more user-friendly formatting (google 'parse json online' and 'json to table online').
 6.  I'm a R-guy, so I have just build a script to transform my data into a tidy table 
       * `woolworth_cleaning.R` reads the two files from the current working directory (named `list_example.json` and `receipts_example.json` in this case, the files are also provided for reference), transforms them into 2 tidy tables, parse text data where necessary and writes `transactions_list.csv` and `all_items.csv` that can be directly opened in MS Excel. `woolworth_analysis.R` shows a few examples of how this data can be summarised on-the-fly in R
-      * (to be done: put on a jupyter notebook with the code)
+      * (TODO: put on a jupyter notebook with the code)
 
 ### Details
 #### Legal
