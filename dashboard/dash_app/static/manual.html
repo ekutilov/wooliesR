@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon16.png">
+    <!-- Bootstrap CSS -->
+    <!-- link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" -->
+    <link href='https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/yeti/bootstrap.min.css' rel='stylesheet'>
+    <title>myShopDash - Getting started</title>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='row'>
+
+          <div class='container-fluid'>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+              <a class="navbar-brand mb-0 h1" href="/dashapp/">myShopDash for Everyday Rewards</a>
+            </nav>
+          </div>
+
+      </div>
+      <div class='row'>
+        <div class='col'>
+          <div class='container-fluid w-100 float-right'>
+          <h1 class='mt-4 text-primary'>Getting started</h1>
+          <h3 class='mt-0 mb-4 text-secondary'>with myShoppingData browser extension and myShoppingDash viewer</h3>
+          <dl class='row'>
+            <dt class='col-3'>
+              <h3 class='text-info'>Hello!</h3>
+            </dt>
+            <dd class='col-9'>
+              <p>If you are here, you are probably here for the first time, and
+                chances are you have just got lost on the website. If you were viewing your shopping
+                data and accidentally navigated away, your dashboard page is <a href='/dashapp/'>ALWAYS HERE</a>.</p>
+            </dd>
+            <dt class='col-3'>
+              <h3 class='text-info'>About this site</h3>
+            </dt>
+            <dd class='col-9'>
+                <p>This site is a very simple (for now) visual dashboard
+                that allows you to review your shopping data from Everyday Rewards
+                loyalty program (previously known as Woolworths Rewards - only in Australia).
+                In particular,
+                when you opt-in, you can see all your eReceipts after check-out
+                from Woolworths, BigW and BWS on the Everyday Rewards (ER) website and
+                in the ER mobile app. However, you only can click individual
+                receipts, but can't download
+                all your data in machine readable format - i.e. Excel.</p>
+                <p>With my dashboard it might be just possible.</p>
+                <p><small class='text-secondary'>
+                  In fact, it is just my little lockdown project (and my name is Eugene btw).
+                  I simply like data and like making it accessible.</small></p>
+              <p><small class='text-secondary'>
+                This site is not affiliated with Woolworths. It is not
+                intended to infringe IP or data security arrangements at
+                Woolworths. It uses a publicly available API access point,
+                and does nothing any user can't do with a standard web browser.
+                All about user's data privacy is <a href='/static/privacy.html'>here</a>.</small></p>
+              </dd>
+              <dt class='col-3'>
+                <h3  class='text-info'>Why</h3>
+              </dt>
+              <dd class='col-9'>
+                <p>You may need aggregated info about your supermarket buys
+                  for different purposes:
+                </p>
+                <p>
+                  1) You may see how, where and what you spend most of your
+                  groceries expences on. Probably, want to optimise it, like
+                  buying things in bulk.</p>
+                <p>2) You may see prices on individual products and how they change in time.</p>
+                <p>3) You may have a separate loyalty account for your
+                  taxable expences and you can export you expences directly
+                  to your accounting software.</p>
+                <p>4) You may save your data for future analysis, as eReceipts
+                  on Everyday Rewards
+                  website are saved only for 14 months, and you may wish to see
+                  a deeper data horizon.</p>
+              </dd>
+              <dt class='col-3'>
+                <h3 class='text-info'>How to use it</h3>
+              </dt>
+              <dd class='col-9'>
+                <h4><strong>1. Install Chrome Extension</strong></h4>
+                <p>You need to use specialised Chrome Extension: <strong>myShopData</strong>
+                to download your data from your account at Everyday Rewards website.
+                It will bulk-download your eReceipts for you and help to
+                send this data to myShopDash in one chunk.</p>
+                <p class='text-warning small m-1'>On this stage
+                  the extension is not approved for Chrome Store.
+                  You can download Extension code from GitHub and install it
+                  as 'unpacked extension' in Developers mode in your browser.</p>
+                  <p class='text-warning small m-1'>1) Download a zip file from here:
+                    <a href='https://github.com/ekutilov/wooliesR/extension/distr'>github</a>
+                  and unpack it.</p>
+                    <p class='text-warning small m-1'>2) Open chrome extensions page: type <b>chrome://extensions</b> in url box.</p>
+                      <p class='text-warning small m-1'>3) Turn on developer mode right top corner</p>
+                      <p class='text-warning small m-1'>4) Click install unpacked and choose the directory where you
+                      unpacked the zip file.</p>
+                      <p>The Extension is available
+                  for Chrome users only at this stage.</p>
+                  <h4><strong>2. Use the Extension on the Everyday Rewards website</strong></h4>
+                <p>When installed, navigate to Everyday Rewards website and
+                log in there. Then run the Extension by pressing the button in your
+              browser's extension shelf (on the right of the address line, under the jugsaw piece icon -
+              the Extension's button is orange with letter r).</p>
+                <h4><strong>3. Save data or send it for analysis here</strong></h4>
+                <p>The Extension will guige you through the process.
+                You will be able to choose from two options: save your
+              data locally as a encoded file <span class='text-secondary'>
+              (for experts: it is actually json file
+              with all the information API provides)</span> or upload it
+              onto myShopDash in one click. The Extension does not
+              send your data to this website until you press the button,
+              so you can choose to save your data securely on your computer
+              without sending it to myShopDash.</p>
+              <h4><strong>4. View your data</strong></h4>
+              <p>If you choose to upload your data on myShopDash: you will be redirected onto
+              your dashboard immediately. Your data will be temporarily saved
+              on the server. Nobodywill be able to see your data  except for you.
+              Your view will be accessible only from your current browser
+              and only for a limited time (no longer than 36 hours and only
+              until your browser window is open). </p>
+              <p>myShopDash decode the data, summarise and visualise it. If you
+                have never used it, you
+              can see it in action in demo-mode
+              <a href='/dashapp/'>here</a> (a depersonalised demonstration data
+              file is used for the demo-version).</p>
+              <p>From your dashboard you can download your decoded data on your computer as
+              Excel file. </p>
+              <h4><strong>4. Delete your data from myShopDash</strong></h4>
+              <p>You can delete your data from the server at any time by pressing
+              the red button at the bottom of the page.</p>
+              <p>If you navidated from the Dashboard very recently and didn't
+                deleted your data, you can return back to the dashboard
+                <a href='/dashapp/'>here</a> and continue your session.</p>
+              <p>If you forget to delete your data, myShopDash deletes it
+                automatically no later than 36 hours
+                after your visit.</p>
+                </dd>
+                <dt class='col-3'>
+                  <h3 class='text-info'>Features and issues</h3>
+                </dt>
+                <dd class='col-9'>
+                  <p>It is very likely that the service will not work exactly as
+                    described, especially at first. I will be grateful for
+                    detailed bug reports, so bugs can be fixed. You can also suggest
+                    fixes directly through GitHub.</p>
+                  <p>The most typical expected problem, that your eReceipts
+                  are not parced/decoded properly, so they are shown
+                  corrupted or break the dashboard completely. If this happens,
+                  consider sending me your JSON file, downloaded directly from myShopData Extension.
+                  I can guarantee confidentiality of your shopping details.</p>
+                  <p>New features will be being added as we go,
+                    and any suggestions are appreciated.</p>
+                  <p>As myShopDash (or, rather, the browser extension) uses
+                  a Woolworths' corporate program interface that is not
+                  oficially documented, some issues might arise if modification
+                  to the protocol are introduced by the company.
+                  So if something looks broken, drop me a message.</p>
+                  </dd>
+
+                  <dt class='col-3'>
+                    <h3 class='text-info'>Contacts</h3>
+                  </dt>
+                  <dd class='col-9'>
+                    <p><a href='/static/contacts.html'>Contact info</a>.
+                    </p>
+                  </dd>
+                </dl>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr></hr>
+  </body>
+</html>
