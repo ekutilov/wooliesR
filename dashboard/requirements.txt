@@ -12,7 +12,6 @@ dash-html-components==2.0.0
 dash-table==5.0.0
 et-xmlfile==1.1.0
 Flask==2.0.1
-Flask-Caching==1.10.1
 Flask-Compress==1.10.1
 google==3.0.0
 google-api-core==2.0.1
