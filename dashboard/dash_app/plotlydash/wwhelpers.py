@@ -810,6 +810,8 @@ def content_blocks(session_id):
                                 html.A('Source code', href='https://github.com/ekutilov/wooliesR'),
                                 html.Br(),
                                 html.Span('SessionID: {}, ts: {}, alert_status: {} (include it in your message of you report an issue)'.format(session_id, pd.Timestamp.today(), alert_status), className='small text-secondary'),
+                                html.Br(),
+                                html.A(html.Img(src='/static/chromestoreicon.png'), href='https://chrome.google.com/webstore/detail/kjnoihdmllddkmfhikjlkbfcdcmghhji/'),
                                 html.Br(), html.Br(), html.Br(),
                                 ]
                                 ), className='text-center'
