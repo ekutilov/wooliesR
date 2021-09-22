@@ -23,6 +23,7 @@ class WWData:
 
     # Constants
     DIVISIONS = {'SO1010': 'BWS',
+                 'SO1060': 'Big W',
                  'SO1005': 'Supermarkets',
                  'SO1030': 'WW Metro'}
 
