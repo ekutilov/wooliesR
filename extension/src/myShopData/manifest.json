@@ -1,9 +1,13 @@
 {
   "name": "myShopData for Everyday Rewards",
   "description": "Download and analyse data and eReceipts from your account in Everyday Rewards (or Woolworths Rewards), Australian loyalty program.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting", "webNavigation"],
+  "host_permissions": [
+  "https://*.woolworthsrewards.com.au/*",
+  "https://woolworthsrewards.com.au/*"
+],
   "background": {
     "service_worker": "background.js"
   },
